@@ -38,10 +38,13 @@
         <h2 id="movie-title"><span class="nowrap">15秒でわかる、</span><br>RainLoop。</h2>
         <p>疲れた夜に、呼吸を整える時間を。アプリの空気感と使い方を、音声・字幕付きのCMでご覧いただけます。</p>
       </div>
-      <video controls playsinline preload="metadata" poster="assets/rainloop-cm-poster.jpg" aria-label="RainLoop 15秒CM">
-        <source src="assets/rainloop-cm.mp4" type="video/mp4">
-        お使いのブラウザは動画再生に対応していません。
-      </video>
+      <div class="movie-player">
+        <video controls muted playsinline preload="metadata" poster="assets/rainloop-cm-poster.jpg" aria-label="RainLoop 15秒CM（初期状態はミュート）">
+          <source src="assets/rainloop-cm.mp4" type="video/mp4">
+          お使いのブラウザは動画再生に対応していません。
+        </video>
+        <p class="sound-note">音声付き動画です。初期状態はミュートになっています。</p>
+      </div>
     </section>
 
     <section class="features" aria-labelledby="features-title">
